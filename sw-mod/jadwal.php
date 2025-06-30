@@ -3,7 +3,7 @@ if ($mod ==''){
     header('location:../404');
     echo'kosong';
 }else{
-    include 'sw-mod/sw-assests/css/stylesjadwal.css' ;
+    include 'sw-mod/sw-assests/css/stylejadwal.css' ;
     include_once 'sw-mod/sw-header.php';
 if(!isset($_COOKIE['COOKIES_MEMBER']) && !isset($_COOKIE['COOKIES_COOKIES'])){
         setcookie('COOKIES_MEMBER', '', 0, '/');
