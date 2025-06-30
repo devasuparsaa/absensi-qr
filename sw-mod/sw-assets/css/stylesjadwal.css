@@ -1,0 +1,74 @@
+        .day-header, .hour-header {
+            font-weight: bold;
+            background-color: #f0f9ff;
+            user-select: none;
+        }
+        
+        .class-dropdown {
+            transition: all 0.3s ease;
+        }
+        
+        .class-dropdown:hover {
+            background-color: #e0f2fe;
+        }
+        
+        .schedule-cell {
+            transition: all 0.2s ease;
+            height: 80px;
+            position: relative;
+        }
+        
+        .schedule-cell:hover {
+            background-color: #f8fafc;
+        }
+        
+        .subject-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            text-align: center;
+            color: #1e40af;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        
+        .subject-link:hover {
+            background-color: #dbeafe;
+            color: #1e3a8a;
+        }
+        
+        .active-class {
+            background-color: #1e40af;
+            color: white;
+        }
+        
+        .active-class:hover {
+            background-color: #1e3a8a;
+        }
+        
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+            max-width: 90%;
+        }
