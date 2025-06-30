@@ -30,6 +30,7 @@ echo'
 
   <link rel="stylesheet" href="'.$base_url.'/sw-mod/sw-assets/css/style.css">
   <link rel="stylesheet" href="'.$base_url.'/sw-mod/sw-assets/css/sw-custom.css">
+  <link rel="stylesheet" href="'.$base_url.'/sw-mod/sw-assets/css/stylesjadwal.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">';
   if($mod =='history' OR $mod=='izin'){
     echo'

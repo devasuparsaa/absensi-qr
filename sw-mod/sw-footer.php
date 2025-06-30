@@ -72,6 +72,7 @@ echo'
 <!-- Base Js File -->
 <script src="'.$base_url.'sw-mod/sw-assets/js/base.js"></script>
 <script src="'.$base_url.'sw-mod/sw-assets/js/sweetalert.min.js"></script>
+<script src="'.$base_url.'sw-mod/sw-assets/js/scriptjadwal.js"></script>
 <script src="'.$base_url.'sw-mod/sw-assets/js/plugins/html5-qrcode/minified/html5-qrcode.min.js"></script>';
 if($mod =='history' OR $mod=='cuty' OR $mod=='izin'){
 echo'
